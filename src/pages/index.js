@@ -13,16 +13,24 @@ export const Container = styled.div`
 `
 
 export const Overlay = styled.div`
-    position: absolute;
-    margin: 32px;
-    bottom:0;
-    left: 0;
-    div {
-        padding: 16px 24px;
-        background: black;
-        color: white;
-        line-height: 1.618;
+.top {
+        top: 0;
     }
+   & .bottom {
+        bottom: 0;
+    }
+    section {
+        position: absolute;
+        margin: 32px;
+        left: 0;
+        div {
+            padding: 16px 24px;
+            background: black;
+            color: white;
+            line-height: 1.618;
+        }
+    }
+    
 `
 
 
@@ -34,12 +42,19 @@ const IndexPage = () => (
             <div style={{ width: '100%', maxWidth: "100vw", height: '100vh', }}>
                 <img alt="turtles" style={{ width: '100%', maxWidth: "100vw", height: '100vh', objectFit: 'cover', margin: '0' }} src="https://source.unsplash.com/collection/11355299" />
             </div>
-            <Overlay>
-                <div>
-                    <b>Learn About Sea Turtles:</b> <i><a href="https://www.worldwildlife.org/species/sea-turtle">https://www.worldwildlife.org/species/sea-turtle</a></i>
-                    <br />
-                    <b>Adopt a Sea Turtle:</b> <i><a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Sea-Turtle">https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Sea-Turtle</a></i>
-                </div>
+            <Overlay >
+                <section className="top">
+                    <div>
+                        𓆉𓆉𓆉
+                    </div>
+                </section>
+                <section className="bottom">
+                    <div>
+                        <b>Learn About Sea Turtles:</b> <i><a href="https://www.worldwildlife.org/species/sea-turtle">https://www.worldwildlife.org/species/sea-turtle</a></i>
+                        <br />
+                        <b>Adopt a Sea Turtle:</b> <i><a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Sea-Turtle">https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Sea-Turtle</a></i>
+                    </div>
+                </section>
             </Overlay>
         </Container>
     </Layout>
