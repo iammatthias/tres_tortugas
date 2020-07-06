@@ -11,7 +11,7 @@ const IndexPage = () => (
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
             <div style={{ width: '100%', maxWidth: "100vw", height: '100vh', }}>
-                <img alt="turtles" style={{ width: '100%', maxWidth: "100vw", height: '100vh', objectFit: 'cover', margin: '0' }} src="https://source.unsplash.com/featured/2000?turtle" />
+                <img alt="turtles" style={{ width: '100%', maxWidth: "100vw", height: '100vh', objectFit: 'cover', margin: '0' }} src="https://source.unsplash.com/featured/2000?sea+turtle" />
             </div>
 
         </Container>
