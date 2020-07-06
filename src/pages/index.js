@@ -45,7 +45,7 @@ export const Overlay = styled.div`
 const IndexPage = () => (
     <Layout>
         <Container>
-            <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+            <SEO title="𓆉𓆉𓆉" keywords={[`turtles`, `wwf`]} />
 
             <div style={{ width: '100%', maxWidth: "100vw", height: '100vh', }}>
                 <img alt="turtles" style={{ width: '100%', maxWidth: "100vw", height: '100vh', objectFit: 'cover', margin: '0' }} src="https://source.unsplash.com/collection/11355299" />
