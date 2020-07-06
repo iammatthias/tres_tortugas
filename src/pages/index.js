@@ -20,16 +20,24 @@ export const Overlay = styled.div`
         bottom: 0;
     }
     section {
+        
+        margin: 16px;
         position: absolute;
-        margin: 32px;
         left: 0;
         div {
             padding: 16px 24px;
             background: black;
             color: white;
             line-height: 1.618;
+            max-width: calc(100vw - 32px)
         }
+        @media screen and (min-width: 501px) {
+            margin: 24px;
+        }
+        @media screen and (min-width: 901px) {
+            margin: 32px;
     }
+   
     
 `
 
