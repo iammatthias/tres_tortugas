@@ -18,13 +18,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `𓆉𓆉𓆉`,
+                short_name: `𓆉𓆉𓆉`,
                 start_url: `/`,
                 background_color: `#663399`,
                 theme_color: `#663399`,
                 display: `minimal-ui`,
-                icon: `src/images/turtle.png`, // This path is relative to the root of the site.
+                icon: `src/images/turtle.png`,
             },
         },
         `gatsby-plugin-styled-components`,
