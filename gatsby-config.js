@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `𓆉𓆉𓆉`,
-        description: `at least 3 turtles`,
+        description: `do it for the sea turtles`,
         author: `@iammatthias`,
     },
     plugins: [

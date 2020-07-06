@@ -35,8 +35,16 @@ function SEO({ description, lang, meta, keywords, title }) {
                                 content: `website`,
                             },
                             {
+                                property: `og:image`,
+                                content: `https://source.unsplash.com/collection/11355299`,
+                            },
+                            {
                                 name: `twitter:card`,
                                 content: `summary`,
+                            },
+                            {
+                                name: `twitter:image`,
+                                content: `https://source.unsplash.com/collection/11355299`,
                             },
                             {
                                 name: `twitter:creator`,
